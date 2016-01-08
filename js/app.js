@@ -11,8 +11,8 @@ angular.module('myApp', ['ui.router'])
 
     .state('Contact', {
       url: '/contact',
-      templateUrl: 'js/contact/contact.html'
-
+      templateUrl: 'js/contact/contact.html',
+      controller: 'contactController'
     })
 
     .state('Events', {
@@ -29,14 +29,14 @@ angular.module('myApp', ['ui.router'])
 
     .state('Roster', {
       url: '/roster',
-      templateUrl: 'js/roster/roster.html'
-
+      templateUrl: 'js/roster/roster.html',
+      controller: 'rosterController'
     })
 
     .state('Sponsors', {
       url: '/sponsors',
-      templateUrl: 'js/sponsors/sponsors.html'
-
+      templateUrl: 'js/sponsors/sponsors.html',
+      controller: 'sponsorsController'
     })
 
     .state('Media', {
