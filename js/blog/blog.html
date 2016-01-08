@@ -1,0 +1,29 @@
+<div class="blogbackground">
+  <div class="blogtitle">
+    <h1>Follow Our Journey</h1>
+  </div>
+  <hr>
+
+
+  <div class="blogpost" ng-repeat="blog in blogs">
+    <div class="blogposttitle">
+      <h2>{{ blog.title }}</h2>
+    </div>
+    <p class="blogdateauthor">
+         {{ blog.date }}  /  {{ blog.author }}
+    </p>
+    <div class="blogtext">
+      {{ blog.content }}
+    </div>
+
+
+  </div>
+
+  <!-- BLOG NAVIGATION BAR -->
+  
+  <div class="blogNav">
+    <input value="Search Posts">
+
+  </div>
+
+</div>
