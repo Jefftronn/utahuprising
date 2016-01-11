@@ -4,37 +4,12 @@
   </div>
   <hr>
 
+  <blog-directive inside-blogs="blogs" blog-filter="title"></blog-directive>
 
-  <div class="blogPost" ng-repeat="blog in blogs">
-    <div class="blogPostTitle">
-      <h2>{{ blog.title }}</h2>
-    </div>
-    <p class="blogDateAuthor">
-         {{ blog.date }}  /  {{ blog.author }}
-    </p>
-    <div class="blogText">
-      {{ blog.content }}
-    </div>
-
-
-  </div>
 
   <!-- BLOG NAVIGATION BAR -->
   
-  <div class="blogNav">
-    <h3>Blog Navigation</h3>
-    
-    <div class="Search">
-      <input value="Search Title">
-      <input value="Search Author">
-      <input value="Search Date">
-    </div>
-
-    <button>Order by Newest</button>
-    <button>Order by Oldest</button>
-
-
-  </div>
+  <blog-directive-search title="title"></blog-directive-search>
 
   <div class="subscribeBox">
     <h3>GET UPRISING NEWS</h3>

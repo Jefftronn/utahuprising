@@ -542,12 +542,12 @@ h2 {
 .row {
   width: 1040px;
   margin: auto;
+  padding-top: 20px;
 }
 
 .wally {
   height: 300px;
   width: 260px;
-  background-color: gray;
   float: left;
   text-align: center;
 }
@@ -560,7 +560,7 @@ h2 {
 .wally .image {
   height: 228px;
   width: 227px;
-  background-image: url(http://www.corporatetraveller.ca/assets/images/profile-placeholder.gif);
+  background-image: url(http://i.imgur.com/2F4rjJd.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -569,7 +569,6 @@ h2 {
 .magic {
   height: 300px;
   width: 260px;
-  background-color: gray;
   float: left;
   text-align: center;
 }
@@ -582,7 +581,7 @@ h2 {
 .magic .image {
   height: 228px;
   width: 227px;
-  background-image: url(http://www.corporatetraveller.ca/assets/images/profile-placeholder.gif);
+  background-image: url(http://i.imgur.com/CnXowr5.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -591,7 +590,6 @@ h2 {
 .jeff {
   height: 300px;
   width: 260px;
-  background-color: gray;
   float: left;
   text-align: center;
 }
@@ -604,7 +602,7 @@ h2 {
 .jeff .image {
   height: 228px;
   width: 227px;
-  background-image: url(http://www.corporatetraveller.ca/assets/images/profile-placeholder.gif);
+  background-image: url(http://i.imgur.com/47B2ToI.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -614,7 +612,6 @@ h2 {
 .roby {
   height: 300px;
   width: 260px;
-  background-color: gray;
   float: left;
   text-align: center;
 }
@@ -627,7 +624,7 @@ h2 {
 .roby .image {
   height: 228px;
   width: 227px;
-  background-image: url(http://www.corporatetraveller.ca/assets/images/profile-placeholder.gif);
+  background-image: url(http://i.imgur.com/G7JQta2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -642,7 +639,6 @@ h2 {
 .sander {
   height: 300px;
   width: 260px;
-  background-color: gray;
   float: left;
   text-align: center;
 }
@@ -655,7 +651,7 @@ h2 {
 .sander .image {
   height: 228px;
   width: 227px;
-  background-image: url(http://www.corporatetraveller.ca/assets/images/profile-placeholder.gif);
+  background-image: url(http://i.imgur.com/28mnjRU.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -664,7 +660,6 @@ h2 {
 .thom {
   height: 300px;
   width: 260px;
-  background-color: gray;
   float: left;
   text-align: center;
 }
@@ -677,7 +672,7 @@ h2 {
 .thom .image {
   height: 228px;
   width: 227px;
-  background-image: url(http://www.corporatetraveller.ca/assets/images/profile-placeholder.gif);
+  background-image: url(http://i.imgur.com/bkMA3r3.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -686,7 +681,6 @@ h2 {
 .preston {
   height: 300px;
   width: 260px;
-  background-color: gray;
   float: left;
   text-align: center;
 }
@@ -699,7 +693,7 @@ h2 {
 .preston .image {
   height: 228px;
   width: 227px;
-  background-image: url(http://www.corporatetraveller.ca/assets/images/profile-placeholder.gif);
+  background-image: url(http://i.imgur.com/eWV30cm.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -708,7 +702,6 @@ h2 {
 .cade {
   height: 300px;
   width: 260px;
-  background-color: gray;
   float: left;
   text-align: center;
 }
@@ -721,7 +714,7 @@ h2 {
 .cade .image {
   height: 228px;
   width: 227px;
-  background-image: url(http://www.corporatetraveller.ca/assets/images/profile-placeholder.gif);
+  background-image: url(http://i.imgur.com/V5WzmKX.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -736,7 +729,6 @@ h2 {
 .bubba {
   height: 300px;
   width: 260px;
-  background-color: gray;
   float: left;
   text-align: center;
 }
@@ -749,7 +741,7 @@ h2 {
 .bubba .image {
   height: 228px;
   width: 227px;
-  background-image: url(http://www.corporatetraveller.ca/assets/images/profile-placeholder.gif);
+  background-image: url(http://i.imgur.com/HdbFRYb.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -930,9 +922,13 @@ hr {
   text-align: center;
 }
 
+.inputText h1 {
+  margin-top: 0px;
+}
+
 .inputText p {
   font-size: 25px;
-  padding: 0px 45px 0px 45px;
+  padding: 0px 25% 0px 25%;
 }
 
 .inputBoxes {
