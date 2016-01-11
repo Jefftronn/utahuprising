@@ -435,17 +435,20 @@ h2 {
 }
 
 .historyText p {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 100px;
-    text-align: center;
-    width: 50%;
-    height: 100%;
-    float: right;
-    background-color: white;
-    font-size: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 100px;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  float: right;
+  background-color: white;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .missionText {
@@ -475,6 +478,9 @@ h2 {
   font-size: 20px;
   padding-left: 40px;
   padding-right: 40px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .joinTeam {
@@ -484,7 +490,6 @@ h2 {
   background-color: black;
   text-align: center;
   margin: 0 auto;
-
 }
 
 .buttonJoin input {
@@ -768,15 +773,16 @@ h2 {
 
 .facebook {
   padding-top: 25px;
-  text-align: center;
   font-size: 30px;
+  text-align: center;
 }
 
 .facebookPreview {
   margin: 0 auto;
   height: 350px;
-  width: 80%;
+  width: 700px;
   background-image: url(http://i.imgur.com/RMbclVd.png);
+  background-repeat: no-repeat;
 }
 
 .youtube {
@@ -886,7 +892,7 @@ hr {
 /*CONTACT PAGE*/
 
 .contactHeadRoom {
-  height: 10px;
+  height: 30px;
   width: 100%;
   background-color: black;
 }
@@ -896,10 +902,15 @@ hr {
   width: 100%;
   background-color: gray;
   margin: 0 auto;
+  position: relative;
 }
 
 .contactHeader h1 {
   text-align: center;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .contactIcons {
@@ -912,16 +923,21 @@ hr {
   height: 545px;
   width: 100%;
   background-color: white;
+  position: relative;
 }
 
 .inputText {
-  float: left;
-  width: 50%;
+  text-align: center;
+}
+
+.inputText p {
+  font-size: 25px;
+  padding: 0px 45px 0px 45px;
 }
 
 .inputBoxes {
-  float: right;
   width: 50%;
+  margin: 0 auto;
 }
 
 .contactImg {
