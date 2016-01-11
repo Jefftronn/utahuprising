@@ -773,8 +773,10 @@ h2 {
 }
 
 .facebookPreview {
+  margin: 0 auto;
   height: 350px;
-  width: 90%;
+  width: 80%;
+  background-image: url(http://i.imgur.com/RMbclVd.png);
 }
 
 .youtube {
