@@ -971,6 +971,7 @@ hr {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  color: white;
 }
 
 .contactContainer {
@@ -1011,7 +1012,7 @@ hr {
 
 .inputText {
   text-align: center;
-  color: black;
+  color: white;
 }
 
 .inputText h1 {
