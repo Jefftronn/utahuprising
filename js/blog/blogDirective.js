@@ -3,7 +3,7 @@ angular.module('myApp')
 
 
 	return {
-		templateUrl: '/js/blog/blogDirectiveTemplate.html',
+		templateUrl: './js/blog/blogDirectiveTemplate.html',
 		scope: {
 			blogs: '=insideBlogs',
 			blogFilter: '=',

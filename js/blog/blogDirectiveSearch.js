@@ -3,7 +3,7 @@ angular.module('myApp')
 
 
 		return {
-		templateUrl: '/js/blog/blogDirectiveSearch.html',
+		templateUrl: './js/blog/blogDirectiveSearch.html',
 		scope: {
 			title: '=',
 			toggleOrder: '='
