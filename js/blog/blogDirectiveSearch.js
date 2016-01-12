@@ -1,6 +1,7 @@
 angular.module('myApp')
 .directive('blogDirectiveSearch', function () {
 
+
 		return {
 		templateUrl: '/js/blog/blogDirectiveSearch.html',
 		scope: {

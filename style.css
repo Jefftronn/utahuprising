@@ -619,6 +619,14 @@ h2 {
   width: 260px;
   float: left;
   text-align: center;
+  transition: .5s ease;
+}
+
+.wally :hover {
+-webkit-transform: scale(1.05);
+-ms-transform: scale(1.05);
+transform: scale(1.05);
+transition: .5s ease;
 }
 
 .wally p {
@@ -640,6 +648,14 @@ h2 {
   width: 260px;
   float: left;
   text-align: center;
+  transition: .5s ease;
+}
+
+.magic :hover {
+-webkit-transform: scale(1.05);
+-ms-transform: scale(1.05);
+transform: scale(1.05);
+transition: .5s ease;
 }
 
 .magic p {
@@ -661,6 +677,14 @@ h2 {
   width: 260px;
   float: left;
   text-align: center;
+  transition: .5s ease;
+}
+
+.jeff :hover {
+-webkit-transform: scale(1.05);
+-ms-transform: scale(1.05);
+transform: scale(1.05);
+transition: .5s ease;
 }
 
 .jeff p {
@@ -683,6 +707,14 @@ h2 {
   width: 260px;
   float: left;
   text-align: center;
+  transition: .5s ease; 
+}
+
+.roby :hover {
+-webkit-transform: scale(1.05);
+-ms-transform: scale(1.05);
+transform: scale(1.05);
+transition: .5s ease;
 }
 
 .roby p {
@@ -710,6 +742,14 @@ h2 {
   width: 260px;
   float: left;
   text-align: center;
+  transition: .5s ease;
+}
+
+.sander :hover {
+-webkit-transform: scale(1.05);
+-ms-transform: scale(1.05);
+transform: scale(1.05);
+transition: .5s ease;
 }
 
 .sander p {
@@ -731,6 +771,14 @@ h2 {
   width: 260px;
   float: left;
   text-align: center;
+  transition: .5s ease;
+}
+
+.thom :hover {
+-webkit-transform: scale(1.05);
+-ms-transform: scale(1.05);
+transform: scale(1.05);
+transition: .5s ease;
 }
 
 .thom p {
@@ -752,6 +800,14 @@ h2 {
   width: 260px;
   float: left;
   text-align: center;
+  transition: .5s ease;
+}
+
+.preston :hover {
+-webkit-transform: scale(1.05);
+-ms-transform: scale(1.05);
+transform: scale(1.05);
+transition: .5s ease;
 }
 
 .preston p {
@@ -773,6 +829,14 @@ h2 {
   width: 260px;
   float: left;
   text-align: center;
+  transition: .5s ease;
+}
+
+.cade :hover {
+-webkit-transform: scale(1.05);
+-ms-transform: scale(1.05);
+transform: scale(1.05);
+transition: .5s ease;
 }
 
 .cade p {
@@ -800,6 +864,14 @@ h2 {
   width: 260px;
   float: left;
   text-align: center;
+  transition: .5s ease;
+}
+
+.bubba :hover {
+-webkit-transform: scale(1.05);
+-ms-transform: scale(1.05);
+transform: scale(1.05);
+transition: .5s ease;
 }
 
 .bubba p {
