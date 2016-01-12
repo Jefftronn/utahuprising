@@ -6,7 +6,8 @@ angular.module('myApp')
 		templateUrl: '/js/blog/blogDirectiveTemplate.html',
 		scope: {
 			blogs: '=insideBlogs',
-			blogFilter: '='
+			blogFilter: '=',
+			toggleOrder: '='
 		},
 		restrict: 'E',
 		link: function ( scope, element, attributes ) {

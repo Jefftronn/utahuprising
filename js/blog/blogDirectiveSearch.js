@@ -5,12 +5,14 @@ angular.module('myApp')
 		return {
 		templateUrl: '/js/blog/blogDirectiveSearch.html',
 		scope: {
-			title: '='
+			title: '=',
+			toggleOrder: '='
 		},
 		restrict: 'E',
 		link: function ( scope, element, attributes ) {
 			
-		} 
+		}, 
+		controller: 'blogSearchController'
 	}
 
 
