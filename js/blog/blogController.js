@@ -1,5 +1,5 @@
 angular.module('myApp')
-.controller('blogController', function($scope, blogService) {
+.controller('blogController', function($scope, blogService, $firebaseArray) {
 
 	$scope.blogSort = '-date';
 
@@ -13,6 +13,14 @@ angular.module('myApp')
   // 	$scope.blogs = ['date'];
   // }
   
+  var ref = new Firebase("https://utahuprisingpaintball.firebaseio.com/");
+
+  $scope.allTheEmails = $firebaseArray(ref);
+
+  $scope.addEmails = function(user) {
+  	$scope.allTheEmails.$add(user);
+  	alert('Thanks for signing up! You will recieve up to date news and events!')
+  }
 
 });
 
