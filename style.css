@@ -614,15 +614,14 @@ h2 {
 .rosterContainer {
   background-color: #eee;
   width: 100%;
-  height: 1000px;
   margin: 0 auto;
   text-align: center;
+  display: table;
+  padding-top: 20px;
 }
 
-.row {
-  width: 1040px;
-  margin: auto;
-  padding-top: 20px;
+.centerRoster {
+  padding: 0 0 0 9%;
 }
 
 .wally {
@@ -742,12 +741,6 @@ transition: .5s ease;
   margin: 0 auto;
 }
 
-.row2 {
-  width: 1040px;
-  display:inline-block;
-  margin: auto;
-}
-
 .sander {
   height: 300px;
   width: 260px;
@@ -862,12 +855,6 @@ transition: .5s ease;
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
-}
-
-.row3 {
-  width: 1040px;
-  display:inline-block;
-  margin: auto;
 }
 
 .bubba {
