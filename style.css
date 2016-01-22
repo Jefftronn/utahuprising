@@ -226,6 +226,7 @@ h2 {
 .bio {
   width: 100%;
   height: 65vh;
+  vertical-align: middle;
   background-image: url(http://i.imgur.com/pShr5vM.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -928,8 +929,8 @@ transition: .5s ease;
 
 /*MEDIA PAGE START*/
 .mediaContainer {
-  height: 1850px;
   background-color: white;
+  padding-bottom: 40px;
 }
 
 .facebook {
@@ -978,7 +979,7 @@ transition: .5s ease;
 /*BLOG PAGE START*/
 .blogBackground {
   background-color: #F1F1F1;
-  padding-bottom: 5px;
+  padding-bottom: 6%;
 }
 
 .blogTitle {
