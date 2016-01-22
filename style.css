@@ -37,7 +37,7 @@ h2 {
   background-size: cover;
   background-image: url(http://s12.postimg.org/y3pk199y5/20151107_WCPPL_Vegas_0274.jpg);
   background-repeat: no-repeat;
-  opacity: .85;
+  opacity: .7;
 }
 
 .navBar {
@@ -1140,6 +1140,7 @@ hr {
   width: 50%;
   margin: 0 auto;
   text-align: center;
+  padding-top: 100px;
 }
 
 .buttonJoin :hover {
